@@ -32,6 +32,9 @@ public class Beer {
     @Column(nullable = false)
     private int max;
 
+    @Column(columnDefinition = "integer default 0")
+    private int min;
+
     @Column(nullable = false)
     private int quantity;
 
